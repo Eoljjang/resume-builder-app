@@ -8,3 +8,4 @@ Resume builder is a simple application that allows the user to build a simple re
 https://resume-builder-eoljjang.netlify.app
 
 ### Preview 
+![Preview](https://github.com/Eoljjang/resume-builder-app/blob/main/src/assets/preview.png)
