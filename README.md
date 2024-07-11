@@ -1,8 +1,10 @@
-# React + Vite
+# Resume Builder 
+Resume builder is a simple application that allows the user to build a simple resume by entering in their details into the input fields.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Built in React and hosted on Netlify.
+- Dynamic live preview of Resume being built.
 
-Currently, two official plugins are available:
+### Link
+https://resume-builder-eoljjang.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Preview 
