@@ -77,7 +77,7 @@ function App(){
         <>
             <div className = "title-container">
                 <h1 className="main-title">Resume Builder</h1>
-                <p className="secondary-title">Built with React! <a href="" target="blank">Source Code (GitHub)</a></p>
+                <p className="secondary-title">Built with React! <a href="https://github.com/Eoljjang/resume-builder-app" target="blank">Source Code (GitHub)</a></p>
             </div>
             
             <div className="content">
