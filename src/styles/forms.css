@@ -1,0 +1,133 @@
+/* This file is for styling the input forms */
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    margin-top: 36px;
+}
+
+/** container */
+.input-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* the text input itself */
+.input-element input{
+    height: 22px;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* BUTTONS */
+.add-section-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 8px 14px 8px 14px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background:#AAD9FD;
+    color: black;
+}
+
+.delete-section-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    font-size: 12px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #F38E9B;
+    color: #222222;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#general-info-form{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#general-info-form h2{
+    font-size: 20px;
+}
+
+/* Education and experience are the exact same structure,
+so I use the same styling / class names for them. */
+
+.section-header{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header h2{
+    font-size: 22px;
+}
+
+/* This is the container for the entire section */
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 1000px;
+}
+
+/* header for each individual set of inputs */
+.inputs-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.inputs-header h3{
+    font-size: 16px;
+}
+
+/* This is each set of inputs (just the fields themselves) */
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/*This is the top level container*/
+.skills-container{
+    padding-bottom: 36px;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}

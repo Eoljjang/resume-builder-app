@@ -1,0 +1,58 @@
+/* This file is for styling the "preview" component of the app */
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 36px;
+    border: 3px solid black;
+    height: 820px;
+    background-color: white;
+
+}
+
+.resume-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: 0;
+    height: fit-content;
+    padding: 12px;
+    gap: 12px;
+}
+
+.divider{
+    border: none; /* remove default styling */
+    background-color: #333;  /* Color of the divider */
+    height: 1px;
+    width: 75%;
+}
+
+.section-header{
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.resume-education, .resume-exp, .resume-skills{
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+#field-level-study, .duties-list, .skills-list{
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}

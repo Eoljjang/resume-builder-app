@@ -1,0 +1,60 @@
+/* This file is for styling the layout of the entire page. */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-color: #d3d3d3;
+    font-family:  'Open Sans', 'Poppins', 'Roboto', sans-serif;
+}
+
+.main-title{
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-size: 32px;
+}
+
+.secondary-title{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    min-width: 50%;
+    height: 90vh;
+    flex-shrink: 0;
+}
+
+.left-side > *:not(:last-child) {
+    padding-bottom: 24px;
+    width: 75%;
+    border-bottom: 2px solid black;
+}
+
+.right-side{
+    display: flex;
+    max-width: 40%;
+    min-width: 600px;
+    border: 3px solid black;
+    flex-shrink: 0;
+    height: 90vh;
+    flex-shrink: 0;
+}
+
+.divider{
+    border: none; /* remove default styling */
+    background-color: #333;  /* Color of the divider */
+    height: 1px;
+    width: 75%;
+}
